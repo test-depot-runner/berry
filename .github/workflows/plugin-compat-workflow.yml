@@ -15,7 +15,7 @@ name: 'plugin-compat'
 jobs:
   plugin-compat:
     name: 'Testing plugin-compat'
-    runs-on: [self-hosted, monkci-runners-4vcpu]
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
