@@ -15,7 +15,7 @@ name: 'plugin-compat'
 jobs:
   plugin-compat:
     name: 'Testing plugin-compat'
-    runs-on: ubuntu-latest
+    runs-on: depot-ubuntu-24.04
 
     steps:
     - uses: actions/checkout@v4
